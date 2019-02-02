@@ -1,0 +1,64 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #16161d;
+  transition: 2s;
+}
+
+/*            Container              */
+
+
+.container  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+h1 {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 2.5em;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #565656;
+  width: 30%;
+  height: 200px;
+  min-height: 200px;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 2px 1px 9px 10px #8a8585;
+}
+a img {
+  width: 68%;
+  height: 90%;
+}
+div.buttons a {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*          CursorMagic          */
+
+.magic {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.block {
+  width: 100%;
+  height: 100%;
+}
