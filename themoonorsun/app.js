@@ -12,7 +12,7 @@ second.addEventListener("mouseover", function () {
 });
 
 third.addEventListener("mouseover", function () {
-      document.body.style.backgroundColor = "rgb(45, 56, 64)";
+      document.body.style.backgroundColor = "#2D3820";
 });
 
 forth.addEventListener("mouseover", function () {
